@@ -1,4 +1,6 @@
 # The-Door-Access-control
+
+[![Join the chat at https://gitter.im/leon0516/The-Door-Access-control](https://badges.gitter.im/leon0516/The-Door-Access-control.svg)](https://gitter.im/leon0516/The-Door-Access-control?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 门禁系统 基于ESP8266
 
 这是本人的毕业设计（专科）历时一个月完成。在做毕业设计之前一直在准备转本考试，考完试，距离毕业答辩只剩一个半月，时间非常紧。从零开始，读乐鑫的sdk手册，到完成功能，用了一个月多点，一个人同时开发ESP8266，Android，还有OpenWrt上的Python程序，工作量大，时间紧，导致代码质量不好，但庆幸的是功能都完成了，公开答辩演示也没什么问题。通过这次毕业设计，学到了好多知识。
