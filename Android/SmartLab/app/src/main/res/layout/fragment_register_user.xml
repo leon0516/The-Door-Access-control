@@ -1,0 +1,100 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fb="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.RegisterUserFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_width="148dp"
+            android:layout_height="192dp"
+            android:layout_gravity="center"
+            fb:placeholderImage="@drawable/photo"
+            android:id="@+id/fresco_user_photo" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="学号"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:id="@+id/et_user_name_id"
+                    android:maxLength="10"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="姓名"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:id="@+id/et_user_real_name"
+                    android:maxLines="1"
+                    android:maxLength="10" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="卡号(请用NFC手机录入)"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:enabled="false"
+                    android:id="@+id/et_card_id"
+                    android:editable="false"
+                    android:maxLines="1"
+                    android:maxLength="15" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="班级"
+                    android:gravity="center"
+                    android:id="@+id/et_class_name"
+                    android:maxLines="1"
+                    android:maxLength="10" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="手机号"
+                    android:gravity="center"
+                    android:inputType="phone"
+                    android:id="@+id/et_user_phone_no"
+                    android:maxLines="1"
+                    android:maxLength="11" />
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="登记"
+                android:layout_gravity="center"
+                android:id="@+id/btn_user_register" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
