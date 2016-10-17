@@ -11,6 +11,9 @@
 [专利号：2016203037731(点击查看详情)](http://cpquery.sipo.gov.cn/txnQueryBibliographicData.do?select-key:shenqingh=2016203037731)
 > 吐槽一下专利代理公司 :triumph:妈的，把我名字写错了，正确的是[昻]  不过不知道有多少人能注意到这细节:sweat: 
 
+<img src="zhuanli.jpg" width = "20%" />
+
+
 视频中的小伙伴是我的搭档，负责硬件电路搭建，为了搭电路没少熬夜，挺感谢他的。
 
 
