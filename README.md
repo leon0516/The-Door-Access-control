@@ -9,7 +9,7 @@
 [视频演示.mp4](http://o9xqkc534.bkt.clouddn.com/%E8%BF%9C%E7%A8%8B%E5%8F%AF%E8%A7%86%E5%8C%96%E9%97%A8%E7%A6%81%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.mp4)
 
 [专利号：2016203037731(点击查看详情)](http://cpquery.sipo.gov.cn/txnQueryBibliographicData.do?select-key:shenqingh=2016203037731)
-> 吐槽一下专利代理公司 :triumph:妈的，把我名字写错了，正确的是[昻]  不过不知道有多少人能注意到这细节:sweat: 
+
 
 <img src="zhuanli.jpg" width = "20%" />
 
